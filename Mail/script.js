@@ -30,12 +30,10 @@ button_submission.addEventListener('click',
         {
             mail.placeholder = "utente non riconosciuto";
             mail.classList.add("red");
-            console.log("bella");
         }
         else 
         {
             esito.innerHTML = `<span> utente valido </span>`;
-            console.log("ciao");
         }
         
     }
