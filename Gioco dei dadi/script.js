@@ -24,8 +24,10 @@ start_game.addEventListener('click',
 
         let player = document.querySelector(".player-box");
         let cpu = document.querySelector(".cpu-box");
+        let esito = document.querySelector(".my-box");
 
         player.placeholder = num1;
         cpu.placeholder = num2;
+        esito.innerHTML = `<span> ${result} </span>`;
     }
 );
